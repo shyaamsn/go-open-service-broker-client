@@ -21,8 +21,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/yangkai2g7k/go-open-service-broker-client/v2"
-	"github.com/yangkai2g7k/go-open-service-broker-client/v2/fake"
+	"github.com/shyaamsn/go-open-service-broker-client/v2"
+	"github.com/shyaamsn/go-open-service-broker-client/v2/fake"
 )
 
 func catalogResponse() *v2.CatalogResponse {

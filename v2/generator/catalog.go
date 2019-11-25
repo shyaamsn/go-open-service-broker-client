@@ -19,11 +19,13 @@ package generator
 import (
 	"fmt"
 
+	"k8s.io/klog"
+
 	"math/rand"
 
 	"sort"
 
-	"github.com/yangkai2g7k/go-open-service-broker-client/v2"
+	"github.com/shyaamsn/go-open-service-broker-client/v2"
 )
 
 // GetCatalog will produce a valid GetCatalog response based on the generator settings.
